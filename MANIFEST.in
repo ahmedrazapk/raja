@@ -1,0 +1,18 @@
+include MANIFEST.in
+include requirements.txt
+include *.json
+include *.md
+include *.py
+include *.txt
+recursive-include raja *.css
+recursive-include raja *.csv
+recursive-include raja *.html
+recursive-include raja *.ico
+recursive-include raja *.js
+recursive-include raja *.json
+recursive-include raja *.md
+recursive-include raja *.png
+recursive-include raja *.py
+recursive-include raja *.svg
+recursive-include raja *.txt
+recursive-exclude raja *.pyc
